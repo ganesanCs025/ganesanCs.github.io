@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+}
+li, a, button{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:FFE600;
+    text-decoration: none;
+}
+nav{
+    width: 40%;
+}
+header{
+    font-family: 'Quicksand', sans-serif;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#logo{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(243, 225, 225);
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+
+.nav-links{
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li a{
+    color: rgb(243, 225, 225);
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover{
+    color: steelblue;
+}
+
+button{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 15px 35px;
+    background-color:rgb(235, 235, 16);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.content{
+    font-family: 'Quicksand', sans-serif;
+    height: 70%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.footer{
+    font-family: 'Quicksand', sans-serif;
+    height: 20%;
+}
+h1{
+    line-height: 2.5em;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 1.5em;
+    text-align: center;
+    color:rgb(214, 214, 23);
+}
+h4{
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: rgb(243, 225, 225);
+}
+
+.wrapper{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    height: 60%;
+    margin-top: 3.5em;
+    justify-content: space-around;
+}
+
+.wrapper h1{
+    color: rgb(236, 227, 227);;
+    align-self: center;
+    transform: translateY(-50px);
+}
+
+.login-info {
+    transform: translateX(-35px);
+    display: flex; 
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.social{
+    transform: translateX(35px);
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-info input{
+    background-color:  rgb(236, 227, 227);
+    margin-bottom: 0.5em;
+    margin-left: 1.5em;
+    padding: 1.5em 5em 1.5em 0.5em;
+    border-radius: 15px;
+
+}
+
+.social button{
+    width: 301px;
+    margin-bottom: 0.7em;
+    background-color:  rgb(236, 227, 227);
+}
+
+.image{
+    float: left;
+}
+.image img{
+    width: 30px;
+}
+
+.text{
+    text-align: left;
+    margin-left: 0.5em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.login-info button{
+    font-weight: 500;
+    margin-top: 0.5em;
+    transform: translateX(17px);
+    width: 301px;
+    text-align: left;
+}
+
+.footer{
+    color: rgb(236, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer h4{
+    cursor: pointer;
+    width: 70%;
+    align-self: flex-start;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.footer h3{
+    padding-bottom: 1.5em;
+    align-self: flex-end;
+    font-weight: 500;
+}
